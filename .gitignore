@@ -1,0 +1,24 @@
+__pycache__/
+/.idea
+
+# Weights
+# ignore tmp/xx/xx.xx
+tmp/**/*
+# keep tmp/xx
+!tmp/**/
+
+# Scripts
+scripts/exp_save.sh
+scripts/training_local.sh
+scripts/testing_local.sh
+
+# Networks
+networks/posenet_scipad.py
+networks/mpvit.py
+
+eval/
+prepare_data/
+splits/eigen_benchmark/gt_depths.npz
+
+/splits/eigen_zhou/raw_split.txt
+
