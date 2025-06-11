@@ -180,7 +180,7 @@ class Trainer:
                          "ddad": datasets.PreprocessedDataset,
                          "nuscenes": datasets.PreprocessedDataset,
                          "waymo": datasets.PreprocessedDataset,
-                         "kitti_pp": datasets.PreprocessedDataset}
+                         "kitti_pp": datasets.KPreprocessedDataset}
         self.dataset = datasets_dict[self.opt.dataset]
 
         fpath = os.path.join(os.path.dirname(__file__), "splits", self.opt.split, "{}_files.txt")
