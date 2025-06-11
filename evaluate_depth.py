@@ -157,13 +157,11 @@ def evaluate(opt):
 
     # ******************************* LOADING GT FOR EVALUATION **********************************************
     if opt.eval_split == "ddad":
-        # gt_path = '/remote-home/mtzhang/dataset/ddad/testing/depth'
-        gt_path = 'D:/data/ddad/testing/depth'
+        gt_path = '/remote-home/mtzhang/dataset/ddad/testing/depth'
         gt_depths = sorted([file for file in os.listdir(gt_path) if file.endswith(".npz")])
         gt_depths = [load_sparse_depth("{}/{}".format(gt_path, gt_depth)) for gt_depth in gt_depths]
     elif opt.eval_split == "nuscenes":
-        # gt_path = '/remote-home/mtzhang/dataset/nuscenes_preprocessed/testing/depth'
-        gt_path = 'D:/data/nuscenes/testing/depth'
+        gt_path = '/remote-home/mtzhang/dataset/nuscenes_preprocessed/testing/depth'
         gt_depths = [np.load(f'{gt_path}/{file}') for file in sorted(os.listdir(gt_path)) if file.endswith('.npy')]
     elif opt.eval_split == "cityscapes":
         gt_path = os.path.join(os.path.dirname(__file__), "splits", "cityscapes", "gt_depths")
@@ -175,8 +173,7 @@ def evaluate(opt):
         gt_path = '/remote-home/mtzhang/dataset/make3d/Test134'
         gt_depths = [np.load(f'{gt_path}/{file}') for file in sorted(os.listdir(gt_path)) if file.endswith('.npy')]
     else:
-        # gt_path = '/remote-home/mtzhang/dataset/kitti/testing/depth'
-        gt_path = 'D:/data/kitti/testing/depth'
+        gt_path = '/remote-home/mtzhang/dataset/kitti/testing/depth'
         gt_depths = [np.load(f'{gt_path}/{file}') for file in sorted(os.listdir(gt_path)) if file.endswith('.npy')]
 
     # ******************************* INFERENCE AND SAVE RESULTS **********************************************

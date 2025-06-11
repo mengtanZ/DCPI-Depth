@@ -3,9 +3,12 @@ opencv-python
 thop
 yacs
 timm
+tqdm
 scikit-image
-ConfigArgParse
+scipy
+argparse
 tensorboard
 joblib
 matplotlib
+PIL
 h5py

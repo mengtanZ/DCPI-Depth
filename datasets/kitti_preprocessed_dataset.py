@@ -14,7 +14,7 @@ from .mono_dataset import MonoDataset
 
 
 class KPreprocessedDataset(MonoDataset):
-    """Superclass for the preprocessed datasets (including: DDAD, nuScenes, Waymo, DIML) loaders
+    """Superclass for the preprocessed KITTI datasets loaders
     """
 
     def __init__(self, *args, **kwargs):
@@ -24,7 +24,7 @@ class KPreprocessedDataset(MonoDataset):
         return False
 
     def load_intrinsics(self, folder, frame_index):
-        # adapted from monodepth2, satisfying the image resolution 640x384.
+        # from monodepth2, satisfying the image resolution 640x192.
         intrinsics = np.array([[0.58, 0, 0.5, 0],
                                [0, 1.92, 0.5, 0],
                                [0, 0, 1, 0],

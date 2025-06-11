@@ -282,8 +282,6 @@ class Options:
                                  type=str,
                                  default='resnet18')
 
-
-        # psedo_depth represents depthanythingv2
         self.parser.add_argument("--psedo_depth",
                                  type=str,
                                  default="none",
