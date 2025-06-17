@@ -78,10 +78,10 @@ We provide models trained on the nuScenes, DDAD, Waymo Open, and KITTI datasets.
 
 |         Model         | Dataset  | Abs Rel | Sq Rel |  RMSE  | RMSE log | delta < 1.25 | delta < 1.25<sup>2</sup> | delta < 1.25<sup>3</sup> |
 |:---------------------:|:--------:|:-------:|:------:|:------:|:--------:|:------------:|:------------------------:|:------------------------:|
-| [DCPI-Depth (N)]()(*) | nuScenes |  0.157  | 1.795  | 7.192  |  0.255   |    0.790     |          0.914           |          0.959           |
-| [DCPI-Depth (D)]()(*) |   DDAD   |  0.141  | 2.711  | 14.757 |  0.236   |    0.813     |          0.931           |          0.971           |
+| [DCPI-Depth (N)](https://1drv.ms/f/c/442eec1e53c2e4bf/EswKSUcn7JZHvkEMbEvoa4MBOEWzMmWsQfTu4hxsY0MbeQ?e=dyyhpc)(*) | nuScenes |  0.157  | 1.795  | 7.192  |  0.255   |    0.790     |          0.914           |          0.959           |
+| [DCPI-Depth (D)](https://1drv.ms/f/c/442eec1e53c2e4bf/EgO1O9_PPrZPv44CukbzfMMB6Footc1jTOc9ImjLQWQZig?e=naACkN)(*) |   DDAD   |  0.141  | 2.711  | 14.757 |  0.236   |    0.813     |          0.931           |          0.971           |
 | [DCPI-Depth (W)]()(x) |  Waymo   |  0.116  | 0.963  | 5.642  |  0.162   |    0.872     |          0.972           |          0.991           |
-| [DCPI-Depth (K)]()(*) |  KITTI   |  0.097  | 0.666  | 4.388  |  0.173   |    0.898     |          0.966           |          0.985           |
+| [DCPI-Depth (K)](https://1drv.ms/f/c/442eec1e53c2e4bf/EmMAUiI6Sx1CpmL6gibWX7IBjp8dalW-quhPDFWsgZeqyQ?e=WLOqMA)(*) |  KITTI   |  0.097  | 0.666  | 4.388  |  0.173   |    0.898     |          0.966           |          0.985           |
 
 (*) Recently replicated checkpoints, with minor differences compared to the results in the paper. <br>
 (x) Please note that Waymo open dataset is under strict non-commercial license so we are not allowed to share the model with you if it will used for any profit-oriented activities. <br>
