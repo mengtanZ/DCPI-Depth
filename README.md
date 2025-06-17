@@ -100,7 +100,7 @@ Many thanks to the following excellent open-source projects:
 [BDE-Depth](https://github.com/LiuJF1226/BDEdepth).
 
 ## Citation
-If you find our work useful in your research, please consider citing our paper (currently available as a preprint):
+If you find our work useful in your research, please consider citing our paper:
 ```
 @article{zhang2024dcpi,
   title={{DCPI-Depth}: Explicitly infusing dense correspondence prior to unsupervised monocular depth estimation},
