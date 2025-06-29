@@ -10,7 +10,7 @@ Official PyTorch implementation for the paper:
 > DCPI-Depth: Explicitly Infusing Dense Correspondence Prior to Unsupervised Monocular Depth Estimation  <br>
 > [Mengtan Zhang](https://scholar.google.cz/citations?user=uanS4aIAAAAJ&hl=zh-CN&oi=sra), Yi Feng, Qijun Chen, [Rui Fan](https://scholar.google.cz/citations?user=P5AJTXcAAAAJ&hl=zh-CN&oi=sra)<br>
 > IEEE Transactions on Image Processing (T-IP), 2025<br>
-> [**[Paper]**](http://arxiv.org/abs/2405.16960).
+> [**[Paper]**](https://ieeexplore.ieee.org/document/11051129).
 
 ![legend](assert/legend.png)<br>
 ![comparison](assert/comparison.png)<br>
