@@ -107,6 +107,8 @@ If you find our work useful in your research, please consider citing our paper:
   author={Zhang, Mengtan and Feng, Yi and Chen, Qijun and Fan, Rui},
   journal={IEEE Transactions on Image Processing},
   year={2025},
+  volume={34},
+  pages={4258-4272},
   publisher={IEEE}
 }
 ```
